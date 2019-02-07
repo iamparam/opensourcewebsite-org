@@ -49,6 +49,7 @@ class User extends ActiveRecord implements IdentityInterface
 
     /**
      * {@inheritdoc}
+     * Rules for the edit profile section
      */
     public function rules()
     {
