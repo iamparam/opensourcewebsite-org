@@ -33,4 +33,10 @@ The code is Open Source and available freely under the [MIT license](LICENSE.md)
 
 GIT account link
 
-https://github.com/iamparam/osw.git
+https://github.com/iamparam/opensourcewebsite-org.git
+
+https://help.github.com/articles/fork-a-repo/
+
+git remote set-url origin https://github.com/iamparam/opensourcewebsite-org.git
+
+git remote add upstream https://github.com/iamparam/opensourcewebsite-org.git
