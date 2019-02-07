@@ -41,8 +41,12 @@ git remote set-url origin https://github.com/iamparam/opensourcewebsite-org.git
 
 git remote add origin https://github.com/iamparam/opensourcewebsite-org.git
 
-git remote add upstream https://github.com/iamparam/opensourcewebsite-org.git
+git remote add upstream https://github.com/opensourcewebsite-org/opensourcewebsite-org.git
+
+git remote delete upstream https://github.com/iamparam/opensourcewebsite-org.git
 
 git pull origin master --allow-unrelated-histories
 
 git push origin master --allow-unrelated-histories
+
+git remote rm upstream
