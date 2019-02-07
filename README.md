@@ -44,3 +44,5 @@ git remote add origin https://github.com/iamparam/opensourcewebsite-org.git
 git remote add upstream https://github.com/iamparam/opensourcewebsite-org.git
 
 git pull origin master --allow-unrelated-histories
+
+git push origin master --allow-unrelated-histories

@@ -102,6 +102,11 @@ class UserController extends Controller
         echo $withoutErrors;
         exit;
     }
+    
+    /**
+     * Profile section for the account page
+     * @return boolean If the relation was saved
+     */
 
     public function actionProfile()
     {
@@ -119,6 +124,12 @@ class UserController extends Controller
         }
         
     }
+    
+    
+    /**
+     * View profile page for the user
+     * @return boolean If the relation was saved
+     */
     
     public function actionView( $id ){
         $model = Yii::$app->user->identity;
