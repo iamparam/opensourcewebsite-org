@@ -39,4 +39,8 @@ https://help.github.com/articles/fork-a-repo/
 
 git remote set-url origin https://github.com/iamparam/opensourcewebsite-org.git
 
+git remote add origin https://github.com/iamparam/opensourcewebsite-org.git
+
 git remote add upstream https://github.com/iamparam/opensourcewebsite-org.git
+
+git pull origin master --allow-unrelated-histories
